@@ -4,7 +4,7 @@ async function config() {
   const pageSize = 3;
   await generatePaginationPages(pageSize);
   return {
-    title: "🎉",
+    title: "🐸",
     base: "/",
     description: "um1ng blog",
     ignoreDeadLinks: true,
@@ -14,16 +14,8 @@ async function config() {
       nav: [
         { text: "Archives", link: "/pages/archives" },
         { text: "Tags", link: "/pages/tags" },
-        { text: "About", link: "/pages/about" },
       ],
-      //outline:[2,3],
       outlineTitle: "文章摘要",
-      socialLinks: [
-        {
-          icon: "github",
-          link: "https://github.com/um1ng",
-        },
-      ],
     },
     srcExclude: ["README.md"], // exclude the README.md , needn't to compiler
 
