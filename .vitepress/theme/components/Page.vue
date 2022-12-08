@@ -71,22 +71,11 @@ const props = defineProps({
   height: 28px;
   text-align: center;
   line-height: 28px;
-  border: 1px var(--vp-c-divider-light) solid;
-  border-right: none;
+  border-radius: 50%;
 }
 .link.active {
   background: var(--vp-c-text-1);
   color: var(--vp-c-text-inverse-1);
-  border: 1px solid var(--vp-c-text-1) !important;
-}
-.link:first-child {
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
-}
-.link:last-child {
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
-  border-right: 1px var(--vp-c-divider-light) solid;
 }
 
 @media screen and (max-width: 720px) {

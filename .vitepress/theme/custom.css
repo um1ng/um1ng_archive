@@ -1,16 +1,14 @@
 :root {
-  --vp-c-green: #2563eb;
-  --vp-c-green-light: #1b76ff;
-  --vp-c-green-lighter: #2575fc;
-  --vp-c-green-dark: #005be3;
-  --vp-c-green-darker: #0045ac;
+  --vp-c-green: #52525b;
+  --vp-c-green-light: #52525b;
+  --vp-c-green-lighter: #52525b;
+  --vp-c-green-dark: #52525b;
+  --vp-c-green-darker: #52525b;
   --vp-c-green-dimm-1: rgba(39, 112, 222, 0.5);
   --vp-c-green-dimm-2: rgba(39, 112, 222, 0.25);
   --vp-c-green-dimm-3: rgba(39, 112, 222, 0.05);
-
-  --vp-font-family-base: "PingFang SC", "Microsoft Yahei", sans-serif;
-
-  /*--vp-code-bg-color: #52525b;*/
+  --vp-font-family-base: "PingFang SC", "Microsoft Yahei", Sans, Inter, Avenir,
+    Helvetica, Arial, sans-serif;
 
   /* pure theme color */
   --li-dot-color: var(--vp-c-brand);

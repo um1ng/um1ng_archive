@@ -1,11 +1,17 @@
 const { getPosts, generatePaginationPages } = require("./theme/serverUtils");
 
 async function config() {
-  const pageSize = 3;
+  const pageSize = 5;
   await generatePaginationPages(pageSize);
   return {
-    title: "🐸",
+    title: "👨🏻‍💻",
     base: "/",
+    head: [
+      [
+        "link",
+        { rel: "shortcut icon", type: "image/x-icon", href: `./logo.ico` },
+      ],
+    ],
     description: "um1ng blog",
     ignoreDeadLinks: true,
     themeConfig: {
@@ -17,8 +23,6 @@ async function config() {
       ],
       outlineTitle: "文章摘要",
     },
-    srcExclude: ["README.md"], // exclude the README.md , needn't to compiler
-
     vite: {
       build: { minify: false },
       server: { port: 9999 },
