@@ -9,7 +9,7 @@ async function config() {
     head: [
       [
         "link",
-        { rel: "shortcut icon", type: "image/x-icon", href: `./logo.ico` },
+        { rel: "shortcut icon", type: "image/x-icon", href: `./fav.ico` },
       ],
     ],
     description: "um1ng blog",
